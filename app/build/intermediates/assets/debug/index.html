@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <title>C E N T R A L C A R</title>
+
+    <link rel="stylesheet" href="file:///android_asset/fw7/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="file:///android_asset/fw7/libs/framework7/dist/css/framework7.material.min.css">
+    <link rel="stylesheet" href="file:///android_asset/fw7/libs/swipebox/src/css/swipebox.css">
+    <link rel="stylesheet" href="file:///android_asset/fw7/assets/css/app.css">
+</head>
+<body>
+<div class="statusbar-overlay"></div>
+<div class="panel-overlay"></div>
+<div class="panel panel-left panel-reveal">
+    <div class="line"></div>
+
+    <div class="logo-box">
+        <h2>C E N T R A L C A R</h2>
+        <div>Servicios Ejecutivos</div>
+    </div>
+
+    <div class="list-block mt-15">
+        <div class="list-group">
+            <nav>
+                <ul>
+                    <li class="divider">
+                        Menu
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-map-o"></i>
+                            </div>
+                            <div data-popup=".detalle_viaje" class="open-popup menu-link1 close-panel item-inner">
+                                <div class="item-title">Detalles del viaje</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-code-fork"></i>
+                            </div>
+                            <div data-popup=".detalle_cordon" class="open-popup menu-link1 close-panel item-inner">
+                                <div class="item-title">Cordón</div>
+                            </div>
+                        </a>
+                    </li>
+                    <!--onclick="deleteDatabase('serexecutive');"-->
+                    <li>
+                        <a href="javascript:void(0)" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-database"></i>
+                            </div>
+                            <div class="menu-link1 close-panel item-inner">
+                                <div class="item-title"><span id="allow_update"></span></div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="divider">
+                        Esquema de color
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="item-link close-panel item-content esquema_verde">
+                            <div class="item-media">
+                                <div class="esquema_botones_1">&nbsp;</div>&nbsp;
+                                <div class="esquema_barras_1">&nbsp;</div>&nbsp;
+                                <div class="esquema_fondo_1">&nbsp;</div>&nbsp;
+                                <div class="esquema_fuente_1">&nbsp;</div>&nbsp;
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Verde</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="item-link close-panel item-content esquema_rojo">
+                            <div class="item-media">
+                                <div class="esquema_botones_2">&nbsp;</div>&nbsp;
+                                <div class="esquema_barras_2">&nbsp;</div>&nbsp;
+                                <div class="esquema_fondo_1">&nbsp;</div>&nbsp;
+                                <div class="esquema_fuente_1">&nbsp;</div>&nbsp;
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Rojo</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="item-link close-panel item-content esquema_naranja">
+                            <div class="item-media">
+                                <div class="esquema_botones_3">&nbsp;</div>&nbsp;
+                                <div class="esquema_barras_3">&nbsp;</div>&nbsp;
+                                <div class="esquema_fondo_1">&nbsp;</div>&nbsp;
+                                <div class="esquema_fuente_1">&nbsp;</div>&nbsp;
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Naranja</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="item-link close-panel item-content esquema_azul">
+                            <div class="item-media">
+                                <div class="esquema_botones_4">&nbsp;</div>&nbsp;
+                                <div class="esquema_barras_4">&nbsp;</div>&nbsp;
+                                <div class="esquema_fondo_1">&nbsp;</div>&nbsp;
+                                <div class="esquema_fuente_1">&nbsp;</div>&nbsp;
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Azul</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="item-link close-panel item-content esquema_contraste">
+                            <div class="item-media">
+                                <div class="esquema_botones_5">&nbsp;</div>&nbsp;
+                                <div class="esquema_barras_5">&nbsp;</div>&nbsp;
+                                <div class="esquema_fondo_5">&nbsp;</div>&nbsp;
+                                <div class="esquema_fuente_5">&nbsp;</div>&nbsp;
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Alto contraste</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="panel panel-right panel-reveal">
+    <div class="line"></div>
+
+    <div class="user-banner">
+        <span class="ava-box">
+            <img src="file:///android_asset/fw7/assets/img/tmp/ava3.jpg" alt="">
+        </span>
+    </div>
+
+    <div class="welcome-msg">
+        <h3>Eduardo Aguado Meza</h3>
+        <h4>Estado de cuenta del usuario</h4>
+    </div>
+
+    <div class="list-block mt-15">
+        <div class="list-group">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Profile</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="settings.html" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-cog"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Settings</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Messages</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-heart-o"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">I Like It</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-users"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Friends</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a  onclick="salir();" href="javascript:void(0)" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-sign-out"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Salir</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="list-group mt-20">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="item-link item-primary close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-info-circle"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">About APP/Website</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+</div>
+<div class="toolbar" style="position:fixed; bottom:0px; z-index:6000">
+    <div class="toolbar-inner" id="pie">
+        &copy; Servicios Ejecutivos<div id="infogps"></div><div id="infosync"></div><div id="infostate"></div>
+    </div>
+
+</div>
+<div class="views">
+    <div class="navbar" style="z-index:6000 !important;">
+        <div class="navbar-inner navbar-on-left">
+            <div class="left"></div>
+            <div class="center sliding"></div>
+            <div class="right"></div>
+        </div>
+        <div class="navbar-inner navbar-on-center" id="color_marco">
+            <div class="left sliding" style="transform: translate3d(0px, 0px, 0px);">
+                <a href="#" class="link icon-only open-panel">
+                    <span class="kkicon icon-menu" style="color:#fff;"></span>
+                </a>
+            </div>
+            <div class="center sliding " style="left: -6.5px; transform: translate3d(0px, 0px, 0px);">C E N T R A L C A R</div>
+            <div class="right">
+                <img src="file:///android_asset/fw7/assets/img/gps.svg" class="gps_animation">
+                <img src="file:///android_asset/fw7/assets/img/ripple.svg" class="ripple_animation">
+                <img src="file:///android_asset/fw7/assets/img/reload.svg" class="reload_animation">
+                <img src="file:///android_asset/fw7/assets/img/radio.svg" class="loader_animation">
+                <a href="javascript:void(0);" class="infolink icon-only" id="infolink">
+                    <span class="kkicon icon-link" style="color:#3c99fc !important"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="view view-main">
+        <div class="pages navbar-fixed toolbar-fixed">
+            <div data-page="index" class="page page-bg">
+                <div class="page-content">
+                    <nav class="dashboard-menu">
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script id="base" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-50" id="exit_false" style="display: none;">
+                        <a href="javascript:void(0);" class="code_disabled">
+                            <span>C2</span>
+                            <span class="label_code">Fin de labores</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="exit_true">
+                        <a href="javascript:void(0);" class="c2 menu-link">
+                            <span>C2</span>
+                            <span class="label_code">Fin de labores</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="salida_sitio_act" style="display: none;">
+                        <a href="javascript:void(0);" class="f13 menu-link">
+                            <span>F13</span>
+                            <span class="label_code">Salida por sitio</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="salida_sitio_des">
+                        <a href="javascript:void(0);" class="code_disabled">
+                            <span>F13</span>
+                            <span class="label_code">Salida por sitio</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-100" id="ride_true" style="display: none;">
+                        <a href="javascript:void(0);" class="a10 menu-link">
+                            <span>A10</span>
+                            <span class="label_code">Me dirijo al punto</span>
+                        </a>
+                    </div>
+                    <div class="col-100" id="ride_false">
+                        <a href="javascript:void(0);" class="code_disabled">
+                            <span>A10</span>
+                            <span class="label_code">Me dirijo al punto</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="inicio" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-100">
+                        <a class="c1 menu-link" href="javascript:void(0)">
+                            <span>C1</span>
+                            <span class="label_code">Inicio de labores</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="acudir" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a class="a11 menu-link" href="javascript:void(0)">
+                            <span>A11</span>
+                            <span class="label_code">En el punto</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="cancel_act_acudir" style="display: none;">
+                        <a class="c6 menu-link" href="javascript:void(0)">
+                            <span>C6</span>
+                            <span class="label_code">Servicio cancelado</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="cancel_des_acudir">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>C6</span>
+                            <span class="label_code">Servicio cancelado</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-100" id="abandono_act_acudir" style="display: none;">
+                        <a class="a14 menu-link" href="javascript:void(0)"  data-return="acudir">
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                    <div class="col-100" id="abandono_des_acudir">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="abordo" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a class="c8 menu-link" href="javascript:void(0)">
+                            <span>C8</span>
+                            <span class="label_code">Servicio abordo</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="cancel_act_abordo" style="display: none;">
+                        <a class="c6 menu-link" href="javascript:void(0)">
+                            <span>C6</span>
+                            <span class="label_code">Servicio cancelado</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="cancel_des_abordo">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>C6</span>
+                            <span class="label_code">Servicio cancelado</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-100" id="abandono_act_abordo" style="display: none;">
+                        <a class="a14 menu-link" href="javascript:void(0)"  data-return="abordo">
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                    <div class="col-100" id="abandono_des_abordo">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="tipo_viaje" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="a15 menu-link">
+                            <span>A15</span>
+                            <span class="label_code">Servicio por km</span>
+                        </a>
+                    </div>
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="a2 menu-link">
+                            <span>A2</span>
+                            <span class="label_code">Servicio por tiempo</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-100">
+                        <a href="javascript:void(0);" class="a16 menu-link">
+                            <span>A16</span>
+                            <span class="label_code">Servicio tabulado</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="viaje_tiempo" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c9 menu-link">
+                            <span>C9</span>
+                            <span class="label_code">Servicio Concluido</span>
+                        </a>
+                    </div>
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c14 menu-link">
+                            <span>C14</span>
+                            <span class="label_code">Destino parcial</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-100" id="abandono_act_vtime" style="display: none;">
+                        <a class="a14 menu-link" href="javascript:void(0)"  data-return="viaje_tiempo">
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                    <div class="col-100" id="abandono_des_vtime">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center reduce">
+                    <div class="col-100">
+                        <div id='crono' class="crono_wrapper">00:00:00</div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="viaje_km" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c10 menu-link" data-return="viaje_km">
+                            <span>C10</span>
+                            <span class="label_code">Inicio de escala</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="abandono_act_vkm" style="display: none;">
+                        <a class="a14 menu-link" href="javascript:void(0)"  data-return="viaje_km">
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="abandono_des_vkm">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c9 menu-link">
+                            <span>C9</span>
+                            <span class="label_code">Servicio concluido</span>
+                        </a>
+                    </div>
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c14 menu-link">
+                            <span>C14</span>
+                            <span class="label_code">Destino parcial</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="viaje_tab" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c10 menu-link" data-return="viaje_tab">
+                            <span>C10</span>
+                            <span class="label_code">Inicio de escala</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="cambio_ruta_act">
+                        <a href="javascript:void(0);" class="c12 menu-link" data-return="viaje_tab">
+                            <span>C12</span>
+                            <span class="label_code">Cambio de ruta</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="cambio_ruta_des" style="display: none;">
+                        <a href="javascript:void(0);" class="code_disabled">
+                            <span>C12</span>
+                            <span class="label_code">Cambio de ruta</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c9 menu-link">
+                            <span>C9</span>
+                            <span class="label_code">Servicio concluido</span>
+                        </a>
+                    </div>
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c14 menu-link">
+                            <span>C14</span>
+                            <span class="label_code">Destino parcial</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-100" id="abandono_act_vtab" style="display: none;">
+                        <a class="a14 menu-link" href="javascript:void(0)"  data-return="viaje_tab">
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                    <div class="col-100" id="abandono_des_vtab">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center reduce">
+                    <div class="col-100">
+                        <div id='km_avance' class="tab_wrapper">Servicio Tabulado</div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="tipo_viaje_sitio" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="a15_sitio menu-link">
+                            <span>A15</span>
+                            <span class="label_code">Servicio por km</span>
+                        </a>
+                    </div>
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="a2_sitio menu-link">
+                            <span>A2</span>
+                            <span class="label_code">Servicio por tiempo</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="a16_sitio menu-link">
+                            <span>A16</span>
+                            <span class="label_code">Servicio tabulado</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="cancel_act_vsite" style="display: none;">
+                        <a class="c6 menu-link" href="javascript:void(0)">
+                            <span>C6</span>
+                            <span class="label_code">Servicio cancelado</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="cancel_des_vsite">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>C6</span>
+                            <span class="label_code">Servicio cancelado</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="sitio_tiempo" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c9 menu-link">
+                            <span>C9</span>
+                            <span class="label_code">Servicio concluido</span>
+                        </a>
+                    </div>
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c14 menu-link">
+                            <span>C14</span>
+                            <span class="label_code">Destino parcial</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-100" id="abandono_act_stime" style="display: none;">
+                        <a class="a14 menu-link" href="javascript:void(0)"  data-return="sitio_tiempo">
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                    <div class="col-100" id="abandono_des_stime">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center reduce">
+                    <div class="col-100">
+                        <div id='crono' class="crono_wrapper">00:00:00</div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="sitio_km" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c10 menu-link" data-return="sitio_km">
+                            <span>C10</span>
+                            <span class="label_code">Inicio de escala</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="abandono_act_skm" style="display: none;">
+                        <a class="a14 menu-link" href="javascript:void(0)"  data-return="sitio_km">
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="abandono_des_skm">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c9 menu-link">
+                            <span>C9</span>
+                            <span class="label_code">Servicio concluido</span>
+                        </a>
+                    </div>
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c14 menu-link">
+                            <span>C14</span>
+                            <span class="label_code">Destino parcial</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="sitio_tab" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c10 menu-link" data-return="sitio_km">
+                            <span>C10</span>
+                            <span class="label_code">Inicio de escala</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="abandono_act_stab" style="display: none;">
+                        <a class="a14 menu-link" href="javascript:void(0)"  data-return="sitio_km">
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="abandono_des_stab">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>A14</span>
+                            <span class="label_code">Adandono de servicio</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c9 menu-link">
+                            <span>C9</span>
+                            <span class="label_code">Servicio concluido</span>
+                        </a>
+                    </div>
+                    <div class="col-50">
+                        <a href="javascript:void(0);" class="c14 menu-link">
+                            <span>C14</span>
+                            <span class="label_code">Destino parcial</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center reduce">
+                    <div class="col-100">
+                        <div id='km_avance' class="tab_wrapper">Servicio Tabulado</div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="escala" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-100">
+                        <a class="c11 menu-link" href="javascript:void(0)" data-origen="{{origen}}">
+                            <span>C11</span>
+                            <span class="label_code">Fin de escala</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-100">
+                        <div id='crono' class="crono_wrapper">00:00:00</div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="regreso" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <nav class="dashboard-menu">
+                <div class="row text-center">
+                    <div class="col-50" id="request_queue_act">
+                        <a class="f14 menu-link" href="javascript:void(0)"  data-return="regreso">
+                            <span>F14</span>
+                            <span class="label_code">Solicitar cordón</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="request_queue_des" style="display: none;">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>F14</span>
+                            <span class="label_code">Solicitar cordón</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="air_service_act" style="display: none;">
+                        <a class="f15 menu-link" href="javascript:void(0)">
+                            <span>F15</span>
+                            <span class="label_code">Servicio al aire</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="air_service_des">
+                        <a class="code_disabled" href="javascript:void(0);" >
+                            <span>F15</span>
+                            <span class="label_code">Servicio al aire</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-50" id="fin_labores_act">
+                        <a href="javascript:void(0);" class="c2 menu-link">
+                            <span>C2</span>
+                            <span class="label_code">Fin de labores</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="fin_labores_des" style="display: none;">
+                        <a class="code_disabled" href="javascript:void(0);">
+                            <span>C2</span>
+                            <span class="label_code">Fin de labores</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="tomar_apartado_act" style="display: none;">
+                        <a href="javascript:void(0);" class="a19 menu-link">
+                            <span>A19</span>
+                            <span class="label_code">Tomar apartado</span>
+                        </a>
+                    </div>
+                    <div class="col-50" id="tomar_apartado_des">
+                        <a class="code_disabled" href="javascript:void(0);">
+                            <span>A19</span>
+                            <span class="label_code">Tomar apartado</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</script>
+<script id="elegir_base" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <div class="list-block">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)" class="elegir_base1 item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Base KPMG</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="elegir_base2 item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Base Ejercito Nacional</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block">
+                <div class="row">
+                    <div class="col-33"></div>
+                    <div class="col-33"><a href="#" class="button button-big return original_scheme" data-origen='{{origen}}' style="border:#08957D; background:#08957D; color:#ffffff !important; ">Cancelar</a></div>
+                    <div class="col-33"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script id="cambio_ruta" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <div class="list-block">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)" class="cambio_ruta1 item-content" data-origen='{{origen}}'>
+                            <div class="item-inner">
+                                <div class="item-title">Tráfico</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="cambio_ruta2 item-content" data-origen='{{origen}}'>
+                            <div class="item-inner">
+                                <div class="item-title">Manifestación</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="cambio_ruta3 item-content" data-origen='{{origen}}'>
+                            <div class="item-inner">
+                                <div class="item-title">Calle cerrada</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="cambio_ruta4 item-content" data-origen='{{origen}}'>
+                            <div class="item-inner">
+                                <div class="item-title">Otro</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block">
+                <div class="row">
+                    <div class="col-33"></div>
+                    <div class="col-33"><a href="#" class="button button-big return" data-origen='{{origen}}' style="border:#08957D; background:#08957D; color:#ffffff !important; ">Cancelar</a></div>
+                    <div class="col-33"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script id="abandono" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+            <div class="list-block">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)" class="abandono1 item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Fuerza Mayor</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="abandono2 item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Falla mecánica</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="abandono3 item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Cambio neumatico</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="abandono4 item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Policía tránsito</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="abandono5 item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Otro</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block">
+                <div class="row">
+                    <div class="col-33"></div>
+                    <div class="col-33"><a href="javascript:void(0)" class="button button-big return" data-origen='{{origen}}' style="border:#08957D; background:#08957D;">Cancelar</a></div>
+                    <div class="col-33"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<div class="popup detalle_viaje" style="background-color:#efeff4 !important;">
+    <div class="content-block">
+        <a href="#" class="close-popup">
+            <i style="font-size:2em;" class="fa fa-times-circle-o"></i>
+        </a>
+        <br>
+        <div class="list-block">
+            <div id="data_viaje">
+                <a href="#" class="item-link item-content"><div class="item-inner"><div class="item-title">Sin datos de viaje</div></div></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="popup detalle_cordon pop_cordon">
+    <div class="content-block">
+        <a href="#" class="close-popup" style="z-index:10">
+            <i id="update_cordon" class="fa fa-refresh fa-spin spin_pop"></i>&nbsp;&nbsp;
+            <i class="fa fa-times-circle close_pop"></i>
+        </a>
+        <br>
+        <div id="data_cordon">
+            NO HAY DATOS DE CORDON
+        </div>
+    </div>
+</div>
+<script id="indicadores" type="text/template">
+    <div id="data_verificacion">
+        <div data-page="media-lists" class="page">
+            <div class="page-content">
+                <div class="content-block" style="margin: 60px 0 !important; color: #FFFFFF;">
+                    <p>Si la lista muestra todos los indicadores en verde y aun no se le asigna al cordón notifíquelo a la central</p>
+                </div>
+                <div class="content-block-title">Indicadores</div>
+                <div class="list-block media-list">
+                    <ul>
+                        {{#each this}}
+                        <li>
+                            <a href="#" class="item-link item-content" style="color:{{color}} !important;">
+                                <div class="item-inner">
+                                    <div class="item-title-row" style="background-image:none !important">
+                                        <div class="item-title">{{indicador}}</div>
+                                        <div class="item-after" style="color:{{color}}; ">{{estado}}</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script id="choice_car" type="text/template">
+    <div data-page="index" class="page page-bg">
+        <div class="page-content">
+
+                <div class="content-block-mod1">
+                    <p>Usted tiene asignados más de un vehiculo para continuar es necesario que precise que vehiculo esta usando en este momento.</p>
+                </div>
+                <div class="content-block-title-mod1">Vehículos</div>
+                <div class="list-block media-list">
+                    <ul id="select_car_list"></ul>
+                </div>
+
+
+        </div>
+    </div>
+</script>
+
+<script>
+    function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+    function getQueryVariable(variable) {
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0; i < vars.length; i++) {
+           var pair = vars[i].split("=");
+           if(pair[0] == variable) {
+               return pair[1];
+           }
+       }
+       return false;
+    }
+
+	var url_app = 'https://centralcar.mx/';
+	var domain = 'centralcar.mx';
+
+    var id_operador = getParameterByName('id_operador');
+    var serie = getParameterByName('serie');
+    var id_operador_unidad = getParameterByName('id_operador_unidad');
+    var token_session = getParameterByName('token_session');
+    var id_usuario = getParameterByName('id_usuario');
+    var mvhc = getParameterByName('mvhc');
+    var session_id = getParameterByName('session_id');
+
+
+	var lat = 23.915941;
+	var lon = -102.537345;
+	var acc = 0;
+	var globalBase = 'SB';
+
+	var pusher_key= 'adebe68a7122c813921e';
+	var pusher_presence = 'presence-activos';
+
+
+	var csrf_token = (Math.random().toString(36).substr(2)).substr(0,20);
+
+
+
+</script>
+<script type="text/javascript" src="file:///android_asset/fw7/libs/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="file:///android_asset/fw7/libs/framework7/dist/js/framework7.min.js"></script>
+<script type="text/javascript" src="file:///android_asset/fw7/libs/swipebox/src/js/jquery.swipebox.min.js"></script>
+<script type="text/javascript" src="file:///android_asset/fw7/libs/jquery-validation/dist/jquery.validate.min.js"></script>
+<script type="text/javascript" src="file:///android_asset/fw7/libs/jquery-validation/dist/jquery.validate.min.js"></script>
+
+<script type="text/javascript" src="file:///android_asset/fw7/assets/js/helpers.js" ></script>
+<script type="text/javascript" src="file:///android_asset/fw7/assets/js/app.js" ></script>
+<script type="text/javascript" src="file:///android_asset/fw7/assets/js/indexeddb.js" ></script>
+<script type="text/javascript" src="file:///android_asset/fw7/assets/js/intervals.js" ></script>
+
+<audio id="timbre" name="timbre" src="file:///android_asset/fw7/assets/audio/timbre.mp3" preload="auto" loop></audio>
+<audio id="cordonSound" name="cordonSound" src="file:///android_asset/fw7/assets/audio/cordon.mp3" preload="auto"></audio>
+<audio id="rideSound" name="rideSound" src="file:///android_asset/fw7/assets/audio/ride.mp3" preload="auto" loop></audio>
+
+<img src="file:///android_asset/fw7/assets/img/driver-green.svg" style="display:none;">
+<img src="file:///android_asset/fw7/assets/img/driver-black.svg" style="display:none;">
+<img src="file:///android_asset/fw7/assets/img/driver-red.svg" style="display:none;">
+<img src="file:///android_asset/fw7/assets/img/driver-orange.svg" style="display:none;">
+<img src="file:///android_asset/fw7/assets/img/driver-blue.svg" style="display:none;">
+<img src="file:///android_asset/fw7/assets/img/driver-white.svg" style="display:none;">
+
+<script>
+var timbre = document.getElementsByTagName("audio")[0];
+var cordonSound = document.getElementsByTagName("audio")[1];
+var rideSound = document.getElementsByTagName("audio")[2];
+</script>
+
+<!--Pusher-->
+<script src="https://js.pusher.com/3.1/pusher.min.js" ></script>
+<script type="text/javascript" src="file:///android_asset/fw7/assets/js/ws_pusher.js" ></script>
+
+</body>
+</html>
