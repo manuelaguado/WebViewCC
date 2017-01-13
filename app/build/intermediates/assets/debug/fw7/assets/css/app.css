@@ -6232,3 +6232,24 @@ html:not(.watch-active-state) .list-block .item-link:active {
     margin-right: 7px;
     display: none;
 }
+.toolbarfix{
+    position:fixed;
+    bottom:0px;
+    z-index:6000
+}
+.navbarfixpos{
+    z-index:6000 !important;
+}
+.colorkkicon{
+    color:#3c99fc !important
+}
+.title_fix{
+    left: -6.5px;
+    transform: translate3d(0px, 0px, 0px);
+}
+.kkwhite{
+color:#fff;
+}
+.left_trans_fix{
+    transform: translate3d(0px, 0px, 0px);
+}

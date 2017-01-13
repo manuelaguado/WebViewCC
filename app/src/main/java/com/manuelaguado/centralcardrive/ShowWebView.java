@@ -63,7 +63,7 @@ public class ShowWebView extends Activity {
 
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            WebView.setWebContentsDebuggingEnabled(true);
+            WebView.setWebContentsDebuggingEnabled(false);
         }
 
 

@@ -38,9 +38,26 @@
     <favorites_list name="WebView" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ShowWebView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manuelaguado/centralcardrive/ShowWebView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="E:\PC-FILES\Escritorio\ANGEL\centralcar.jks" />
+    <option name="KEY_ALIAS" value="centralcar" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -1670,19 +1687,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/assets/login.html" />
         <option value="$PROJECT_DIR$/app/src/main/assets/material/css/app.min.1.css" />
         <option value="$PROJECT_DIR$/app/src/main/assets/fw7/assets/js/indexeddb.js" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/fw7/assets/css/app.css" />
         <option value="$PROJECT_DIR$/app/src/main/assets/index.html" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/login.html" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/material/js/common.js" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/manuelaguado/centralcardrive/ShowWebView.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="674" />
-    <option name="y" value="153" />
-    <option name="width" value="1368" />
-    <option name="height" value="1038" />
+    <option name="x" value="741" />
+    <option name="y" value="134" />
+    <option name="width" value="1655" />
+    <option name="height" value="1318" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1709,8 +1729,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView">
@@ -1719,10 +1737,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="WebView" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1747,6 +1761,46 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebView" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebView" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1799,19 +1853,50 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fw7" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebView" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="manifests" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="device.picker.selection" value="ZX1F323PR8" />
+    <property name="ExportApk.ApkPath" value="E:\PC-FILES\Escritorio\ANGEL\WebView\app" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="release" />
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -1859,6 +1944,50 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Native>
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1872,6 +2001,22 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1898,6 +2043,27 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1920,6 +2086,34 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -2012,7 +2206,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="674" y="153" width="1368" height="1038" extended-state="0" />
+    <frame x="741" y="134" width="1655" height="1318" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2032,7 +2226,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32568806" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26645768" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2074,7 +2268,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32568806" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26645768" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2105,6 +2299,151 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="266" column="20" selection-start-line="266" selection-start-column="20" selection-end-line="266" selection-end-column="20" />
+          <folding>
+            <element signature="e#33#655#0" expanded="false" />
+            <element signature="e#71#213#0" expanded="false" />
+            <element signature="e#735#6825#0" expanded="false" />
+            <element signature="e#813#923#0" expanded="false" />
+            <element signature="e#929#6818#0" expanded="false" />
+            <element signature="e#968#6807#0" expanded="false" />
+            <element signature="e#1005#6792#0" expanded="false" />
+            <element signature="e#1027#6773#0" expanded="false" />
+            <element signature="e#1052#1127#0" expanded="false" />
+            <element signature="e#1148#1683#0" expanded="false" />
+            <element signature="e#1177#1657#0" expanded="false" />
+            <element signature="e#1278#1397#0" expanded="false" />
+            <element signature="e#1426#1628#0" expanded="false" />
+            <element signature="e#1704#2232#0" expanded="false" />
+            <element signature="e#1733#2206#0" expanded="false" />
+            <element signature="e#1834#1957#0" expanded="false" />
+            <element signature="e#1986#2177#0" expanded="false" />
+            <element signature="e#2322#2834#0" expanded="false" />
+            <element signature="e#2351#2808#0" expanded="false" />
+            <element signature="e#2452#2574#0" expanded="false" />
+            <element signature="e#2603#2779#0" expanded="false" />
+            <element signature="e#2856#2943#0" expanded="false" />
+            <element signature="e#2964#3702#0" expanded="false" />
+            <element signature="e#2993#3676#0" expanded="false" />
+            <element signature="e#3108#3491#0" expanded="false" />
+            <element signature="e#3520#3647#0" expanded="false" />
+            <element signature="e#3723#4459#0" expanded="false" />
+            <element signature="e#3752#4433#0" expanded="false" />
+            <element signature="e#3866#4249#0" expanded="false" />
+            <element signature="e#4278#4404#0" expanded="false" />
+            <element signature="e#4480#5222#0" expanded="false" />
+            <element signature="e#4509#5196#0" expanded="false" />
+            <element signature="e#4626#5009#0" expanded="false" />
+            <element signature="e#5038#5167#0" expanded="false" />
+            <element signature="e#5243#5979#0" expanded="false" />
+            <element signature="e#5272#5953#0" expanded="false" />
+            <element signature="e#5386#5769#0" expanded="false" />
+            <element signature="e#5798#5924#0" expanded="false" />
+            <element signature="e#6000#6751#0" expanded="false" />
+            <element signature="e#6029#6725#0" expanded="false" />
+            <element signature="e#6148#6531#0" expanded="false" />
+            <element signature="e#6560#6696#0" expanded="false" />
+            <element signature="e#6826#10897#0" expanded="false" />
+            <element signature="e#7201#10889#0" expanded="false" />
+            <element signature="e#7240#10247#0" expanded="false" />
+            <element signature="e#7277#10232#0" expanded="false" />
+            <element signature="e#7299#10213#0" expanded="false" />
+            <element signature="e#7324#7777#0" expanded="false" />
+            <element signature="e#7353#7751#0" expanded="false" />
+            <element signature="e#7446#7564#0" expanded="false" />
+            <element signature="e#7593#7722#0" expanded="false" />
+            <element signature="e#7798#8254#0" expanded="false" />
+            <element signature="e#7827#8228#0" expanded="false" />
+            <element signature="e#7923#8040#0" expanded="false" />
+            <element signature="e#8069#8199#0" expanded="false" />
+            <element signature="e#8275#8733#0" expanded="false" />
+            <element signature="e#8304#8707#0" expanded="false" />
+            <element signature="e#8397#8519#0" expanded="false" />
+            <element signature="e#8548#8678#0" expanded="false" />
+            <element signature="e#8754#9212#0" expanded="false" />
+            <element signature="e#8783#9186#0" expanded="false" />
+            <element signature="e#8876#8997#0" expanded="false" />
+            <element signature="e#9026#9157#0" expanded="false" />
+            <element signature="e#9233#9687#0" expanded="false" />
+            <element signature="e#9262#9661#0" expanded="false" />
+            <element signature="e#9355#9474#0" expanded="false" />
+            <element signature="e#9503#9632#0" expanded="false" />
+            <element signature="e#9708#10191#0" expanded="false" />
+            <element signature="e#9737#10165#0" expanded="false" />
+            <element signature="e#9858#9980#0" expanded="false" />
+            <element signature="e#10009#10136#0" expanded="false" />
+            <element signature="e#10257#10877#0" expanded="false" />
+            <element signature="e#10300#10862#0" expanded="false" />
+            <element signature="e#10322#10843#0" expanded="false" />
+            <element signature="e#10347#10821#0" expanded="false" />
+            <element signature="e#10376#10795#0" expanded="false" />
+            <element signature="e#10473#10598#0" expanded="false" />
+            <element signature="e#10627#10766#0" expanded="false" />
+            <element signature="e#10898#11101#0" expanded="false" />
+            <element signature="e#10935#11093#0" expanded="false" />
+            <element signature="e#11168#11346#0" expanded="false" />
+            <element signature="e#11428#11639#0" expanded="false" />
+            <element signature="e#11486#11620#0" expanded="false" />
+            <element signature="e#12834#15141#0" expanded="false" />
+            <element signature="e#15142#15727#0" expanded="false" />
+            <element signature="e#15728#17736#0" expanded="false" />
+            <element signature="e#17737#19747#0" expanded="false" />
+            <element signature="e#19748#21001#0" expanded="false" />
+            <element signature="e#21002#22881#0" expanded="false" />
+            <element signature="e#22882#24844#0" expanded="false" />
+            <element signature="e#24845#27793#0" expanded="false" />
+            <element signature="e#27794#29730#0" expanded="false" />
+            <element signature="e#29731#31610#0" expanded="false" />
+            <element signature="e#31611#33573#0" expanded="false" />
+            <element signature="e#33574#35772#0" expanded="false" />
+            <element signature="e#35773#36596#0" expanded="false" />
+            <element signature="e#36597#39607#0" expanded="false" />
+            <element signature="e#39608#40968#0" expanded="false" />
+            <element signature="e#40969#43057#0" expanded="false" />
+            <element signature="e#43058#45362#0" expanded="false" />
+            <element signature="e#45363#45873#0" expanded="false" />
+            <element signature="e#45446#45866#0" expanded="false" />
+            <element signature="e#45482#45599#0" expanded="false" />
+            <element signature="e#45621#45855#0" expanded="false" />
+            <element signature="e#45658#45840#0" expanded="false" />
+            <element signature="e#45874#46283#0" expanded="false" />
+            <element signature="e#45924#46276#0" expanded="false" />
+            <element signature="e#45960#46171#0" expanded="false" />
+            <element signature="e#46193#46265#0" expanded="false" />
+            <element signature="e#46284#47663#0" expanded="false" />
+            <element signature="e#47664#48250#0" expanded="false" />
+            <element signature="e#48252#49630#0" expanded="false" />
+            <element signature="e#51488#51682#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/fw7/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manuelaguado/centralcardrive/ShowWebView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2119,24 +2458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="16284" column="20" selection-start-line="16284" selection-start-column="20" selection-end-line="16284" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#824#845#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manuelaguado/centralcardrive/ShowWebView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-856">
-          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -2144,14 +2465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/fw7/assets/js/intervals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2162,23 +2475,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/fw7/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="6204" column="14" selection-start-line="6204" selection-start-column="14" selection-end-line="6204" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
+        <state relative-caret-position="338">
+          <caret line="263" column="37" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
+          <folding>
+            <element signature="e#33#655#0" expanded="false" />
+            <element signature="e#71#213#0" expanded="false" />
+            <element signature="e#735#6825#0" expanded="false" />
+            <element signature="e#813#923#0" expanded="false" />
+            <element signature="e#929#6818#0" expanded="false" />
+            <element signature="e#968#6807#0" expanded="false" />
+            <element signature="e#1005#6792#0" expanded="false" />
+            <element signature="e#1027#6773#0" expanded="false" />
+            <element signature="e#1052#1127#0" expanded="false" />
+            <element signature="e#1148#1683#0" expanded="false" />
+            <element signature="e#1177#1657#0" expanded="false" />
+            <element signature="e#1278#1397#0" expanded="false" />
+            <element signature="e#1426#1628#0" expanded="false" />
+            <element signature="e#1704#2232#0" expanded="false" />
+            <element signature="e#1733#2206#0" expanded="false" />
+            <element signature="e#1834#1957#0" expanded="false" />
+            <element signature="e#1986#2177#0" expanded="false" />
+            <element signature="e#2322#2834#0" expanded="false" />
+            <element signature="e#2351#2808#0" expanded="false" />
+            <element signature="e#2452#2574#0" expanded="false" />
+            <element signature="e#2603#2779#0" expanded="false" />
+            <element signature="e#2856#2943#0" expanded="false" />
+            <element signature="e#2964#3702#0" expanded="false" />
+            <element signature="e#2993#3676#0" expanded="false" />
+            <element signature="e#3108#3491#0" expanded="false" />
+            <element signature="e#3520#3647#0" expanded="false" />
+            <element signature="e#3723#4459#0" expanded="false" />
+            <element signature="e#3752#4433#0" expanded="false" />
+            <element signature="e#3866#4249#0" expanded="false" />
+            <element signature="e#4278#4404#0" expanded="false" />
+            <element signature="e#4480#5222#0" expanded="false" />
+            <element signature="e#4509#5196#0" expanded="false" />
+            <element signature="e#4626#5009#0" expanded="false" />
+            <element signature="e#5038#5167#0" expanded="false" />
+            <element signature="e#5243#5979#0" expanded="false" />
+            <element signature="e#5272#5953#0" expanded="false" />
+            <element signature="e#5386#5769#0" expanded="false" />
+            <element signature="e#5798#5924#0" expanded="false" />
+            <element signature="e#6000#6751#0" expanded="false" />
+            <element signature="e#6029#6725#0" expanded="false" />
+            <element signature="e#6148#6531#0" expanded="false" />
+            <element signature="e#6560#6696#0" expanded="false" />
+            <element signature="e#6826#10897#0" expanded="false" />
+            <element signature="e#7201#10889#0" expanded="false" />
+            <element signature="e#7240#10247#0" expanded="false" />
+            <element signature="e#7277#10232#0" expanded="false" />
+            <element signature="e#7299#10213#0" expanded="false" />
+            <element signature="e#7324#7777#0" expanded="false" />
+            <element signature="e#7353#7751#0" expanded="false" />
+            <element signature="e#7446#7564#0" expanded="false" />
+            <element signature="e#7593#7722#0" expanded="false" />
+            <element signature="e#7798#8254#0" expanded="false" />
+            <element signature="e#7827#8228#0" expanded="false" />
+            <element signature="e#7923#8040#0" expanded="false" />
+            <element signature="e#8069#8199#0" expanded="false" />
+            <element signature="e#8275#8733#0" expanded="false" />
+            <element signature="e#8304#8707#0" expanded="false" />
+            <element signature="e#8397#8519#0" expanded="false" />
+            <element signature="e#8548#8678#0" expanded="false" />
+            <element signature="e#8754#9212#0" expanded="false" />
+            <element signature="e#8783#9186#0" expanded="false" />
+            <element signature="e#8876#8997#0" expanded="false" />
+            <element signature="e#9026#9157#0" expanded="false" />
+            <element signature="e#9233#9687#0" expanded="false" />
+            <element signature="e#9262#9661#0" expanded="false" />
+            <element signature="e#9355#9474#0" expanded="false" />
+            <element signature="e#9503#9632#0" expanded="false" />
+            <element signature="e#9708#10191#0" expanded="false" />
+            <element signature="e#9737#10165#0" expanded="false" />
+            <element signature="e#9858#9980#0" expanded="false" />
+            <element signature="e#10009#10136#0" expanded="false" />
+            <element signature="e#10257#10877#0" expanded="false" />
+            <element signature="e#10300#10862#0" expanded="false" />
+            <element signature="e#10322#10843#0" expanded="false" />
+            <element signature="e#10347#10821#0" expanded="false" />
+            <element signature="e#10376#10795#0" expanded="false" />
+            <element signature="e#10473#10598#0" expanded="false" />
+            <element signature="e#10627#10766#0" expanded="false" />
+            <element signature="e#10898#11101#0" expanded="false" />
+            <element signature="e#10935#11093#0" expanded="false" />
+            <element signature="e#11168#11346#0" expanded="false" />
+            <element signature="e#11428#11639#0" expanded="false" />
+            <element signature="e#11486#11620#0" expanded="false" />
+            <element signature="e#12834#15141#0" expanded="false" />
+            <element signature="e#15142#15727#0" expanded="false" />
+            <element signature="e#15728#17736#0" expanded="false" />
+            <element signature="e#17737#19747#0" expanded="false" />
+            <element signature="e#19748#21001#0" expanded="false" />
+            <element signature="e#21002#22881#0" expanded="false" />
+            <element signature="e#22882#24844#0" expanded="false" />
+            <element signature="e#24845#27793#0" expanded="false" />
+            <element signature="e#27794#29730#0" expanded="false" />
+            <element signature="e#29731#31610#0" expanded="false" />
+            <element signature="e#31611#33573#0" expanded="false" />
+            <element signature="e#33574#35772#0" expanded="false" />
+            <element signature="e#35773#36596#0" expanded="false" />
+            <element signature="e#36597#39607#0" expanded="false" />
+            <element signature="e#39608#40968#0" expanded="false" />
+            <element signature="e#40969#43057#0" expanded="false" />
+            <element signature="e#43058#45362#0" expanded="false" />
+            <element signature="e#45363#45873#0" expanded="false" />
+            <element signature="e#45446#45866#0" expanded="false" />
+            <element signature="e#45482#45599#0" expanded="false" />
+            <element signature="e#45621#45855#0" expanded="false" />
+            <element signature="e#45658#45840#0" expanded="false" />
+            <element signature="e#45874#46283#0" expanded="false" />
+            <element signature="e#45924#46276#0" expanded="false" />
+            <element signature="e#45960#46171#0" expanded="false" />
+            <element signature="e#46193#46265#0" expanded="false" />
+            <element signature="e#46284#47663#0" expanded="false" />
+            <element signature="e#47664#48250#0" expanded="false" />
+            <element signature="e#48252#49630#0" expanded="false" />
+            <element signature="e#51488#51682#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/fw7/assets/js/intervals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="35" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="80" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/material/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manuelaguado/centralcardrive/ShowWebView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

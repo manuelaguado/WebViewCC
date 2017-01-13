@@ -144,8 +144,8 @@
     </div>
 
     <div class="welcome-msg">
-        <h3>Eduardo Aguado Meza</h3>
-        <h4>Estado de cuenta del usuario</h4>
+        <h3>Nombre del Operador</h3>
+        <h4>Estado de cuenta del operador</h4>
     </div>
 
     <div class="list-block mt-15">
@@ -236,33 +236,34 @@
     </div>
 
 </div>
-<div class="toolbar" style="position:fixed; bottom:0px; z-index:6000">
+<div class="toolbar toolbarfix">
     <div class="toolbar-inner" id="pie">
         &copy; Servicios Ejecutivos<div id="infogps"></div><div id="infosync"></div><div id="infostate"></div>
     </div>
 
 </div>
 <div class="views">
-    <div class="navbar" style="z-index:6000 !important;">
+    <div class="navbar navbarfixpos">
         <div class="navbar-inner navbar-on-left">
             <div class="left"></div>
             <div class="center sliding"></div>
             <div class="right"></div>
         </div>
         <div class="navbar-inner navbar-on-center" id="color_marco">
-            <div class="left sliding" style="transform: translate3d(0px, 0px, 0px);">
+            <div class="left sliding left_trans_fix">
                 <a href="#" class="link icon-only open-panel">
-                    <span class="kkicon icon-menu" style="color:#fff;"></span>
+                    <span class="kkicon icon-menu kkwhite"></span>
                 </a>
             </div>
-            <div class="center sliding " style="left: -6.5px; transform: translate3d(0px, 0px, 0px);">C E N T R A L C A R</div>
+            <div class="center sliding title_fix">C E N T R A L C A R</div>
             <div class="right">
                 <img src="file:///android_asset/fw7/assets/img/gps.svg" class="gps_animation">
                 <img src="file:///android_asset/fw7/assets/img/ripple.svg" class="ripple_animation">
                 <img src="file:///android_asset/fw7/assets/img/reload.svg" class="reload_animation">
                 <img src="file:///android_asset/fw7/assets/img/radio.svg" class="loader_animation">
-                <a href="javascript:void(0);" class="infolink icon-only" id="infolink">
-                    <span class="kkicon icon-link" style="color:#3c99fc !important"></span>
+                <a href="javascript:;" class="infolink icon-only link open-panel" id="infolink" data-panel="right">
+                <!--<a href="javascript:void(0);" class="infolink icon-only" id="infolink">-->
+                    <span class="kkicon icon-link colorkkicon"></span>
                 </a>
             </div>
         </div>

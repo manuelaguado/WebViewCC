@@ -17,6 +17,9 @@ function valida_logeo(e,decReq,boton){
                     $('#initloader').show();
                     $('#l-login').hide();
                 },
+                complete:function() {
+                    $('#initloader').hide();
+                },
 				success: function(respuesta){
 					if(respuesta[0].resp=='acceso_correcto'){
 

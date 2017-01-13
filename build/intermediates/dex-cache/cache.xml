@@ -2,6 +2,15 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-25.1.0_e6d17f1d4cc74b51f9f9c71c02f5b2f3781e56ef.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
@@ -20,6 +29,15 @@
         <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_0167c3e7b88825c1998adf701b48694a74ad80a5\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-25.1.0_0167c3e7b88825c1998adf701b48694a74ad80a5.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\jars\classes.jar"
         jumboMode="true"
@@ -27,6 +45,33 @@
         revision="23.0.2"
         sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
         <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-20.0.0_e16b373469418b1cca7a0dd761498ebd79cb9fea\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-20.0.0_e16b373469418b1cca7a0dd761498ebd79cb9fea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-25.1.0_8fe8be3cb4e5139936bc5e854e3a18f8e28f4298.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-appindexing-8.4.0_d048250f1ae41ad096d6e333cc3033f76e648a76.jar" />
     </item>
     <item
         is-multidex="true"
@@ -47,6 +92,15 @@
         <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_d048250f1ae41ad096d6e333cc3033f76e648a76\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\Manuel_2\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\pre-dexed\release\support-annotations-25.1.0_7437e7a325d068f07dec303bd25dc43324f76342.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
         jumboMode="true"
@@ -54,6 +108,15 @@
         revision="23.0.2"
         sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
         <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_fda3cf522cc3db7a8b8a9314688094aed544a341\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-25.1.0_fda3cf522cc3db7a8b8a9314688094aed544a341.jar" />
     </item>
     <item
         is-multidex="true"
@@ -65,6 +128,15 @@
         <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_bad7a46659fc558d4535713e00f2942b778b5dfb\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-25.1.0_0783b790ea92654fed9db269d02762e1250af42f.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
         jumboMode="true"
@@ -74,12 +146,39 @@
         <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_0783b790ea92654fed9db269d02762e1250af42f\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-25.1.0_72fd5a18a2510e128204c0d538b8c60b470ee5f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-base-8.4.0_df395d4402c39a01584f3446d6960d5056b7d78f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-8.4.0_bad7a46659fc558d4535713e00f2942b778b5dfb.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="5c52e17a79443a3c9fdac26c86f32ef8ec14576c">
+        sha1="8854d29e7afe612f3e26d6aadf53b0bf1908eae6">
         <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3874a25e51b56d34a1d3ffe7dd6484767584d628\classes.dex" />
     </item>
     <item
@@ -97,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="c62e297c7ced46076cfda886f612a6eb39191772">
+        sha1="d297c7d505cfd6017f600e7f2adb41b28c14bfa7">
         <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_af6d217ef1b9bc48934a809ccdf5d3bbe553dc5d\classes.dex" />
     </item>
     <item
