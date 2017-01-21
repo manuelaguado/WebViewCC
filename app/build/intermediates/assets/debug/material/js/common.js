@@ -2,10 +2,10 @@ function valida_logeo(e,decReq,boton){
 	
    	if(valida_enter(e,decReq)==true || boton==1){
    		if($('#usuario').get(0).value==""){
-   			showAlert('Olvido ingresar usuario');
+   			showAlert('Olvidó ingresar su nombre de usuario');
    			return false;
    		}else if($('#password').get(0).value==""){
-        		showAlert('Olvido ingresar password');
+        		showAlert('Olvidó ingresar su contraseña');
         		return false;
         }else{
 			$.ajax({
@@ -13,6 +13,7 @@ function valida_logeo(e,decReq,boton){
 				type: 'POST',
 				data: 'usuario='+$('#usuario').val()+"&password="+$('#password').val(),
 				dataType: "json",
+				crossDomain : true,
 				beforeSend: function() {
                     $('#initloader').show();
                     $('#l-login').hide();
@@ -46,7 +47,7 @@ function valida_logeo(e,decReq,boton){
                                 var id_usuario = respuesta[4].id_usuario;
                                 var mvhc = respuesta[4].mvhc;
                                 var session_id = respuesta[4].session_id;
-                                var get = '?id_operador='+id_operador+'&serie='+serie+'&id_operador_unidad='+id_operador_unidad+'&token_session='+token_session+'&id_usuario='+id_usuario+'&mvhc='+mvhc+'&session_id='+session_id;
+                                var get = '?id_operador='+id_operador+'&serie='+serie+'&id_operador_unidad='+id_operador_unidad+'&token_session='+token_session+'&id_usuario='+id_usuario+'&mvhc='+mvhc+'&session_id='+session_id+'&url_app='+url_app;
 
 								window.location ='file:///android_asset/index.html' + get;
 							}else{
@@ -57,7 +58,7 @@ function valida_logeo(e,decReq,boton){
 					if(respuesta[0].resp=="acceso_incorrecto"){
 						$('#usuario').value="";
 						$('#password').value="";
-						showAlert('Usuario o password incorrecto');
+						showAlert('Usuario o contraseña incorrecta');
 						$('#l-login').show();
 						$('#l-login').css( "display", "" );
 					}else if(respuesta[0].resp=="inhabilitado"){
@@ -65,7 +66,7 @@ function valida_logeo(e,decReq,boton){
 					    $('#l-login').show();
 					    $('#l-login').css( "display", "" );
 					}else if(respuesta[0].resp=="violacion_c2"){
-						showAlert('El login de su cuenta esta inhabilitado por cerrar la aplicacion sin darse por C2, <strong>dirijase a las oficinas centrales</strong>');  
+						showAlert('El login de su cuenta esta inhabilitado por cerrar la aplicación sin darse por C2, <strong>diríjase a las oficinas centrales</strong>');
 					    $('#l-login').show();
 					    $('#l-login').css( "display", "" );
 					}

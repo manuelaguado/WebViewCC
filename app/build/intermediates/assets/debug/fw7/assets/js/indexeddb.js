@@ -1,7 +1,7 @@
 var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
 var dataBase = null;
 
-var version_bd = 'V2.8';
+var version_bd = 'V2.8.1';
 $("#allow_update").html(version_bd);
 
 //deleteDatabase('serexecutive2');

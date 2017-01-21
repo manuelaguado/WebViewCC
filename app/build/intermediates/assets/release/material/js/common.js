@@ -13,6 +13,7 @@ function valida_logeo(e,decReq,boton){
 				type: 'POST',
 				data: 'usuario='+$('#usuario').val()+"&password="+$('#password').val(),
 				dataType: "json",
+				crossDomain : true,
 				beforeSend: function() {
                     $('#initloader').show();
                     $('#l-login').hide();
@@ -46,7 +47,7 @@ function valida_logeo(e,decReq,boton){
                                 var id_usuario = respuesta[4].id_usuario;
                                 var mvhc = respuesta[4].mvhc;
                                 var session_id = respuesta[4].session_id;
-                                var get = '?id_operador='+id_operador+'&serie='+serie+'&id_operador_unidad='+id_operador_unidad+'&token_session='+token_session+'&id_usuario='+id_usuario+'&mvhc='+mvhc+'&session_id='+session_id;
+                                var get = '?id_operador='+id_operador+'&serie='+serie+'&id_operador_unidad='+id_operador_unidad+'&token_session='+token_session+'&id_usuario='+id_usuario+'&mvhc='+mvhc+'&session_id='+session_id+'&url_app='+url_app;
 
 								window.location ='file:///android_asset/index.html' + get;
 							}else{

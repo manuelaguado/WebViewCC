@@ -178,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="8854d29e7afe612f3e26d6aadf53b0bf1908eae6">
+        sha1="39e7f75d3eae967791a69e57ca8447e9c253bd21">
         <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3874a25e51b56d34a1d3ffe7dd6484767584d628\classes.dex" />
     </item>
     <item
@@ -196,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="d297c7d505cfd6017f600e7f2adb41b28c14bfa7">
+        sha1="7ea54cba046eb630969bb6201b6dcc67b5ad562b">
         <dex dex="E:\PC-FILES\Escritorio\ANGEL\WebView\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_af6d217ef1b9bc48934a809ccdf5d3bbe553dc5d\classes.dex" />
     </item>
     <item

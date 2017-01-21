@@ -1,4 +1,4 @@
-#Thu Jan 12 19:06:43 CST 2017
+#Sat Jan 21 14:23:08 CST 2017
 base.0=E\:\\PC-FILES\\Escritorio\\ANGEL\\WebView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_af6d217ef1b9bc48934a809ccdf5d3bbe553dc5d
 renamed.1=classes2.dex
 renamed.0=classes.dex

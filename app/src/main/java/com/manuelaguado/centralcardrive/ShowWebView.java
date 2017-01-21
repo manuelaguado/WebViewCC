@@ -104,6 +104,18 @@ public class ShowWebView extends Activity {
                     }
                     return true;
                 }
+                if (url.contains("waze://")) {
+                    Uri gmmIntentUri = Uri.parse(url);
+                    Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                    mapIntent.setPackage("com.waze");
+                    if (mapIntent.resolveActivity(getPackageManager()) != null) {
+                        startActivity(mapIntent);
+                    }else{
+                        Intent intent = new Intent( Intent.ACTION_VIEW, Uri.parse( "market://details?id=com.waze" ) );
+                        startActivity(intent);
+                    }
+                    return true;
+                }
                 if (url.contains("tel:")) {
                     Uri telIntentUri = Uri.parse(url);
                     Intent telIntent = new Intent(Intent.ACTION_DIAL, telIntentUri);
